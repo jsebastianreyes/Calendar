@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  background: #fafafa;
+}
+
+.wrapper{
+  max-inline-size: 935px;
+  margin: auto;
+  /* border: 1px solid purple; */
+}
+
+.grid{
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: 293px; */
+  gap: 1.75rem;
+}
+
+
+.post img{
+  inline-size: 100%;
+  block-size: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  vertical-align: middle;
+  object-position: center;
+}
+
+@media screen and (max-width:768px) {
+  .grid{
+    gap: 3px;
+  }
+}

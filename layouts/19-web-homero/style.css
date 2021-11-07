@@ -1,0 +1,107 @@
+body{
+  background: #78bbcb;
+  min-block-size: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+
+.container{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(5, 80px);
+  row-gap: 1rem;
+  column-gap: 2rem;
+}
+
+ .container img{
+  max-inline-size: 100%;
+}
+
+
+
+.homero-reloj:nth-of-type(1){
+  grid-column: 1 / -1;
+}
+
+.homero-tostadora-1{
+  grid-column: 1 / 1;
+}
+
+.homero-campana-1{
+  grid-column: 1 / 1;
+  justify-self: end;
+}
+
+
+.homero-campana-2{
+  grid-column: 5 / 6;
+  /* grid-row: ; */
+  justify-self: center;
+}
+
+.homero-gusano-1{
+  grid-column: 1 / 1;
+  grid-row: 5 / 6;
+}
+.homero-gusano-2{
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  justify-self: end;
+  /* align-self: center; */
+}
+
+.homero-tostadora-2{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+
+}
+
+.homero-reloj-1{
+  inline-size: 40px;
+  justify-self: end;
+  align-self: center;
+}
+.homero-reloj-2{
+   grid-column: 6 / 7;
+  grid-row: 5 / 6;
+}
+
+
+ .homero-boca-1{
+   grid-row: 3 / 4;
+   grid-column: 2/ 3;
+   justify-self: end;
+}
+
+ .homero-boca-2{
+   grid-row: 4 / 5;
+   grid-column: 6/ 7;
+}
+
+.homero-reloj-3{
+  grid-row: 4 / 5;
+  grid-column: 2/ 3;
+  justify-self: end;
+}
+
+
+.homero-dios{
+  grid-row: 2 / -1;
+  grid-column: 3 / 5;
+}
+
+.homero-tostadora-3{
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+  width: 80px;
+
+}
+.homero-tostadora-4{
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
+}

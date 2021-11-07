@@ -1,0 +1,33 @@
+:root{
+  --block-size: 100vh;
+  --inlineSizeSidebar: 16.25rem;
+  --blockSizeHeader: 6rem;
+}
+
+
+.page{
+  display: grid;
+  block-size: var(--block-size);
+  grid-template-columns: var(--inlineSizeSidebar) 1fr;
+  grid-template-rows: var(--blockSizeHeader) 1fr;
+  grid-template-areas:
+  "header header"
+  "sidebar main";
+  /* box-sizing: border-box; */
+}
+
+.page .header{
+  grid-area: header;
+}
+
+.page .sidebar{
+  border: 1px solid yellow;
+  grid-area: sidebar;
+}
+
+.page .calendar{
+  border: 1px solid black;
+  grid-area: main;
+  position: relative;
+}
+

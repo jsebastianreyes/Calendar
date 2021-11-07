@@ -1,0 +1,23 @@
+.task{
+ background: var(--blue10);
+ color: var(--white);
+ font:var(--body2-medium);
+
+ padding-inline-start: 1rem;
+ padding-inline-end: 1rem;
+ padding-block-start: .625rem;
+ padding-block-end: .625rem;
+ border-radius: .25rem;
+ overflow: hidden;
+
+ display: flex;
+ flex-direction: column;
+ gap: .25rem;
+
+}
+
+.task p{
+  margin: 0;
+  white-space: nowrap;
+
+}

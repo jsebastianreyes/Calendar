@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+  display: grid;
+  /* definir columnas */
+  grid-template-columns: 200px 100px 300px 200px 200px ;
+  /* definir filas */
+  grid-template-rows: 200px 300px;
+}
+
+.item{
+  border: 1px dashed red;
+  /* height: 2rem; */
+  counter-increment: listGrid;
+  /* padding: 1rem; */
+}
+
+.item:before{
+  content: counter(listGrid);
+  color: #000;
+
+}
+
+.container{
+  counter-reset: listGrid;
+}
+

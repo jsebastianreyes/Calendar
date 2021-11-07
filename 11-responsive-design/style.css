@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+  /* gap: .2rem; */
+  block-size: 100vh;
+  background: aliceblue;
+  max-inline-size: 1024px;
+  margin: auto;
+}
+
+
+.item{
+  border: 1px dashed red;
+  counter-increment: listGrid;
+}
+
+.item:before{
+  content: counter(listGrid)'. ';
+  color: #000;
+}
+
