@@ -1,0 +1,28 @@
+@import './mini-calendario.css';
+@import './form-search.css';
+@import './my-calendars.css';
+
+.sidebar{
+  overflow: auto;
+
+}
+
+.sidebar-content{
+  /* border: 1px solid red; */
+  padding-inline:1.5rem;
+  padding-block-end: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+.sidebar-Button{
+  position: sticky;
+  top: 0;
+  padding-inline:1.5rem;
+  padding-block: 1.5rem;
+  z-index: 2;
+  backdrop-filter: blur(5px);
+
+}

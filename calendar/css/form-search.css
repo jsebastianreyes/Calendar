@@ -1,0 +1,34 @@
+.formSearch{
+  position: relative;
+}
+
+.formSearch .icon-users{
+  position: absolute;
+  left: 1rem;
+  top: calc(50% - .5rem);
+  color: var(--gray50);
+
+}
+
+.formSearch input{
+  padding-inline-start: 2.5rem;
+  padding-block-start: .625rem;
+  padding-block-end: .625rem;
+  max-inline-size: 12.25rem;
+  font: var(--body1-regular);
+  color: var(--gray20);
+  border-radius: .25rem;
+  background: var(--gray10);
+  border-color: transparent ;
+  outline: none;
+  transition: .5s border-bottom;
+}
+
+.formSearch input::placeholder{
+  color: var(--gray20);
+}
+
+.formSearch input:focus{
+  border-radius: 0;
+  border-bottom: 2px solid var(--blue10);
+}

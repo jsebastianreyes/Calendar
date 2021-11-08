@@ -1,0 +1,69 @@
+.myCalendars{
+  font: var(--body1-regular);
+  color: var(--gray30);
+  position: relative;
+  /* border: 1px solid red; */
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.myCalendars-title{
+  font: var(--body1-medium);
+  cursor: pointer;
+  outline: none;
+  line-height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myCalendars-title i{
+  color: var(--gray50);
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.myCalendars-title::marker{
+ font-size: 0;
+}
+
+
+
+.myCalendars[open] .myCalendars-title i:before{
+  content: "\e903";
+}
+
+.myCalendar-checkbox{
+  margin-block-start: 1rem;
+}
+
+.myCalendar-checkbox div{
+  display: flex;
+  align-items: center;
+  gap: .25rem
+}
+
+.myCalendar-checkbox input[type='checkbox']{
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid var(--gray50);
+  block-size: 1.1rem;
+  inline-size: 1.1rem;
+  box-sizing: border-box;
+  border-radius: .2rem;
+  /* transition: .2s  background; */
+  outline: none;
+}
+.myCalendar-checkbox input[type='checkbox']:checked{
+  appearance:none;
+  border:none;
+  background:url(../icons/check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0;
+
+}
+.myCalendar-checkbox label{
+  cursor: pointer;
+}

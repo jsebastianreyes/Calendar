@@ -32,7 +32,7 @@
               <a class="button is-compact" href="#" aria-label="Siguiente semana"><i class="icon-chevronRight"
                   aria-hidden="true"></i></a>
             </span>
-            <time class="calendarStatus-date" datetime="10 de octubre de 2021">10 octubre 2021</time>
+            <time class="calendarStatus-date" datetime="2021-10-10">10 octubre 2021</time>
           </div>
         </div>
         <div class="header-right">
@@ -46,6 +46,113 @@
         </div>
       </header>
       <div class="sidebar">
+        <div class="sidebar-Button">
+          <button class="button is-rounded is-shadowed">
+            <i class="icon-plus" aria-hidden="true"></i>
+            <span>Crear</span>
+          </button>
+        </div>
+        <div class="sidebar-content">
+          <div class="miniCalendar" aria-label="Calendario de navegación" role="search">
+            <div class="miniCalendar-status">
+              <time datetime="2021-06" aria-label="Junio de 2021">
+                Abril 2021
+              </time>
+              <span class="calendarStatus-nav">
+                <a class="button is-compact" href="#PrevMonth" aria-label="Mes Anterior"><i class="icon-chevronLeft"
+                    aria-hidden="true"></i></a>
+                <a class="button is-compact" href="#NextMonth" aria-label="Siguiente Mes"><i class="icon-chevronRight"
+                    aria-hidden="true"></i></a>
+              </span>
+            </div>
+            <div class="miniCalendar-header">
+              <span class="miniCalendar-weekDay">D</span>
+              <span class="miniCalendar-weekDay">L</span>
+              <span class="miniCalendar-weekDay">M</span>
+              <span class="miniCalendar-weekDay">X</span>
+              <span class="miniCalendar-weekDay">J</span>
+              <span class="miniCalendar-weekDay">V</span>
+              <span class="miniCalendar-weekDay">S</span>
+            </div>
+            <div class="miniCalendar-month">
+              <div class="miniCalendar-monthDay is-inactive">30</div>
+              <div class="miniCalendar-monthDay">1</div>
+              <div class="miniCalendar-monthDay is-selected">2</div>
+              <div class="miniCalendar-monthDay">3</div>
+              <div class="miniCalendar-monthDay">4</div>
+              <div class="miniCalendar-monthDay">5</div>
+              <div class="miniCalendar-monthDay">6</div>
+              <div class="miniCalendar-monthDay">7</div>
+              <div class="miniCalendar-monthDay">8</div>
+              <div class="miniCalendar-monthDay">9</div>
+              <div class="miniCalendar-monthDay">10</div>
+              <div class="miniCalendar-monthDay">11</div>
+              <div class="miniCalendar-monthDay">12</div>
+              <div class="miniCalendar-monthDay">13</div>
+              <div class="miniCalendar-monthDay">14</div>
+              <div class="miniCalendar-monthDay">15</div>
+              <div class="miniCalendar-monthDay">16</div>
+              <div class="miniCalendar-monthDay">17</div>
+              <div class="miniCalendar-monthDay">18</div>
+              <div class="miniCalendar-monthDay">19</div>
+              <div class="miniCalendar-monthDay">20</div>
+              <div class="miniCalendar-monthDay">21</div>
+              <div class="miniCalendar-monthDay">22</div>
+              <div class="miniCalendar-monthDay">23</div>
+              <div class="miniCalendar-monthDay">24</div>
+              <div class="miniCalendar-monthDay">25</div>
+              <div class="miniCalendar-monthDay">26</div>
+              <div class="miniCalendar-monthDay">27</div>
+              <div class="miniCalendar-monthDay">28</div>
+              <div class="miniCalendar-monthDay">29</div>
+              <div class="miniCalendar-monthDay is-inactive">30</div>
+              <div class="miniCalendar-monthDay is-inactive">1</div>
+              <div class="miniCalendar-monthDay is-inactive">2</div>
+              <div class="miniCalendar-monthDay is-inactive">3</div>
+              <div class="miniCalendar-monthDay is-inactive">4</div>
+              <div class="miniCalendar-monthDay is-inactive">5</div>
+              <div class="miniCalendar-monthDay is-inactive">6</div>
+              <div class="miniCalendar-monthDay is-inactive">7</div>
+              <div class="miniCalendar-monthDay is-inactive">8</div>
+              <div class="miniCalendar-monthDay is-inactive">9</div>
+              <div class="miniCalendar-monthDay is-inactive">10</div>
+              <div class="miniCalendar-monthDay is-inactive">11</div>
+
+
+            </div>
+          </div>
+          <form class="formSearch" aria-label="Búscar personas">
+            <i class="icon-users"></i>
+            <input id="search" type="text" placeholder="Búscar personas">
+          </form>
+          <details open class="myCalendars" aria-label="Seleccion de calendarios">
+            <summary class="myCalendars-title">
+              Mis Calendarios
+              <i class="icon-chevronUp"></i>
+            </summary>
+            <div class="myCalendar-checkbox">
+              <div>
+                <input type="checkbox" id="sebastian-reyes" name="sebastian-reyes" checked>
+                <label for="sebastian-reyes">Sebastián Reyes</label>
+              </div>
+              <div>
+                <input type="checkbox" id="cumpleanios" name="cumpleanios" checked>
+                <label for="cumpleanios">Cumpleaños</label>
+              </div>
+              <div>
+                <input type="checkbox" id="tareas" name="tareas">
+                <label for="tareas">Tareas</label>
+              </div>
+              <div>
+                <input type="checkbox" id="recordatorios" name="recordatorios">
+                <label for="recordatorios">Recordatorios</label>
+              </div>
+            </div>
+          </details>
+        </div>
+
+
+
       </div>
       <main class="calendar">
         <div class="currentTime">
@@ -55,7 +162,7 @@
           <div class="timezoneCell">gmt-5</div>
           <h2 class="calendarDay">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="06-06-2021">
+              <time datetime="2021-06-06">
                 <span>DOM</span><br>
                 <span>6</span>
               </time>
@@ -63,7 +170,7 @@
           </h2>
           <h2 class="calendarDay">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="06-06-2021">
+              <time datetime="2021-06-06">
                 <span>LUN</span><br>
                 <span>7</span>
               </time>
@@ -71,7 +178,7 @@
           </h2>
           <h2 class="calendarDay">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="06-06-2021">
+              <time datetime="2021-06-06">
                 <span>MAR</span><br>
                 <span>8</span>
               </time>
@@ -87,7 +194,7 @@
           </h2>
           <h2 class="calendarDay">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="06-06-2021">
+              <time datetime="2021-06-06">
                 <span>JUE</span><br>
                 <span>10</span>
               </time>
@@ -95,7 +202,7 @@
           </h2>
           <h2 class="calendarDay  is-selected">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="06-06-2021">
+              <time datetime="2021-06-06">
                 <span>VIE</span><br>
                 <span>11</span>
               </time>
@@ -103,7 +210,7 @@
           </h2>
           <h2 class="calendarDay">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="06-06-2021">
+              <time datetime="2021-06-06">
                 <span>SÁB</span><br>
                 <span>12</span>
               </time>
@@ -117,10 +224,6 @@
             </div>
           </div>
           <div class="taskCell">
-            <div tabindex="0" class="task" aria-label="de 17:00 a 18:00, hacer ejercicio">
-              <p>Hacer ejercicio</p>
-              <p><time datetime="17:00">5</time> - <time datetime="18:00">6 pm</time></p>
-            </div>
           </div>
           <div class="taskCell">
             <div tabindex="0" class="task" aria-label="de 17:00 a 18:00, hacer ejercicio">
@@ -176,6 +279,10 @@
           <div class="taskCell">
           </div>
           <div class="taskCell">
+            <div tabindex="0" class="task" aria-label="de 17:00 a 18:00, hacer ejercicio">
+              <p>Hacer ejercicio</p>
+              <p><time datetime="17:00">5</time> - <time datetime="18:00">6 pm</time></p>
+            </div>
           </div>
           <div class="taskCell">
           </div>
