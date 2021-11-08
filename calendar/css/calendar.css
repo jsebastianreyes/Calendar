@@ -14,6 +14,9 @@
    color: var(--gray20);
    padding-inline-end: 1.5rem;
    padding-inline-start: 1.5rem ;
+   overflow-y:auto ;
+
+
 }
 
 .calendar-week{
