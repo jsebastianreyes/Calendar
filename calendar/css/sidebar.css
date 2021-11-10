@@ -3,7 +3,7 @@
 @import './my-calendars.css';
 
 .sidebar{
-  overflow-y:auto;
+  overflow-y:scroll;
 }
 
 .sidebar-content{

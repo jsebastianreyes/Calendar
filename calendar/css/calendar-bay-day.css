@@ -1,0 +1,7 @@
+.calendar-bayDay .calendarDay a{
+  align-self: flex-start;
+}
+
+.calendar-bayDay .taskCell:nth-child(25n){
+  border:none
+}

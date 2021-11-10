@@ -55,7 +55,7 @@
   content: "";
   position: absolute;
   inline-size: 1px;
-  block-size: 2rem;
+  block-size: 1.7rem;
   background:currentColor;
   inset-block-end: 0;
   inset-inline-start: 0;

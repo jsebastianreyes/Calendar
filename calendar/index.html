@@ -10,7 +10,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <title>Calendar</title>
+  <title>Google Calendar | Detallado por mes</title>
+  <meta property="og:title" content="Mi proyecto de Google Calendar" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jsebastianreyes.github.io/Calendar/calendar/" />
+  <meta property="og:image" content="https://jsebastianreyes.github.io/Calendar/calendar/images/sebastian-reyes.png" />
+  <meta property="og:description" content="Proyecto del curso CSS Grid layout e interfaces">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <div class="page">
@@ -164,14 +188,6 @@
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
               <time datetime="2021-06-06">
                 <span>DOM</span><br>
-                <span>6</span>
-              </time>
-            </a>
-          </h2>
-          <h2 class="calendarDay">
-            <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
-              <time datetime="2021-06-06">
-                <span>LUN</span><br>
                 <span>7</span>
               </time>
             </a>
@@ -179,8 +195,16 @@
           <h2 class="calendarDay">
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
               <time datetime="2021-06-06">
-                <span>MAR</span><br>
+                <span>LUN</span><br>
                 <span>8</span>
+              </time>
+            </a>
+          </h2>
+          <h2 class="calendarDay">
+            <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
+              <time datetime="2021-06-06">
+                <span>MAR</span><br>
+                <span>9</span>
               </time>
             </a>
           </h2>
@@ -188,7 +212,7 @@
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
               <time datetime="06-06-2021">
                 <span>MIÉ</span><br>
-                <span>9</span>
+                <span>10</span>
               </time>
             </a>
           </h2>
@@ -196,7 +220,7 @@
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
               <time datetime="2021-06-06">
                 <span>JUE</span><br>
-                <span>10</span>
+                <span>11</span>
               </time>
             </a>
           </h2>
@@ -204,7 +228,7 @@
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
               <time datetime="2021-06-06">
                 <span>VIE</span><br>
-                <span>11</span>
+                <span>12</span>
               </time>
             </a>
           </h2>
@@ -212,7 +236,7 @@
             <a href="./calendar-bay-day.html" aria-label="Domingo 6 de Junio">
               <time datetime="2021-06-06">
                 <span>SÁB</span><br>
-                <span>12</span>
+                <span>13</span>
               </time>
             </a>
           </h2>
@@ -226,10 +250,7 @@
           <div class="taskCell">
           </div>
           <div class="taskCell">
-            <div tabindex="0" class="task" aria-label="de 17:00 a 18:00, hacer ejercicio">
-              <p>Hacer ejercicio</p>
-              <p><time datetime="17:00">5</time> - <time datetime="18:00">6 pm</time></p>
-            </div>
+
           </div>
           <div class="taskCell">
           </div>
@@ -270,8 +291,6 @@
           <div class="taskCell">
           </div>
           <div class="hourCell">3 AM</div>
-          <div class="taskCell is-active">
-          </div>
           <div class="taskCell">
           </div>
           <div class="taskCell">
@@ -279,10 +298,9 @@
           <div class="taskCell">
           </div>
           <div class="taskCell">
-            <div tabindex="0" class="task" aria-label="de 17:00 a 18:00, hacer ejercicio">
-              <p>Hacer ejercicio</p>
-              <p><time datetime="17:00">5</time> - <time datetime="18:00">6 pm</time></p>
-            </div>
+          </div>
+          <div class="taskCell">
+
           </div>
           <div class="taskCell">
           </div>
@@ -365,6 +383,10 @@
           </div>
           <div class="hourCell">9 AM</div>
           <div class="taskCell">
+            <div tabindex="0" class="task" aria-label="de 9:00 a 10:00, hacer ejercicio">
+              <p>Desayunar</p>
+              <p><time datetime="9:00">9</time> - <time datetime="10:00">10 am</time></p>
+            </div>
           </div>
           <div class="taskCell">
           </div>
@@ -485,12 +507,17 @@
           </div>
           <div class="hourCell">5 PM</div>
           <div class="taskCell">
+
           </div>
           <div class="taskCell">
           </div>
           <div class="taskCell">
           </div>
           <div class="taskCell">
+            <div tabindex="0" class="task" aria-label="de 17:00 a 18:00, hacer ejercicio">
+              <p>Hacer ejercicio</p>
+              <p><time datetime="17:00">5</time> - <time datetime="18:00">6 pm</time></p>
+            </div>
           </div>
           <div class="taskCell">
           </div>
@@ -592,6 +619,69 @@
         </div>
       </main>
     </div>
+    <dialog class="modal">
+      <form action="" class="createTask">
+        <div class="input is-outstanding">
+          <div class="input-body">
+            <input name="title" type="text" placeholder="Añade un titulo" required>
+          </div>
+        </div>
+        <div class="input">
+          <i class="icon-clock"></i>
+          <div class="input-body">
+            <input type="date" name="date" required>
+            <input type="time" name="time-start" required>
+            <input type="time" name="time-end" required>
+          </div>
+        </div>
+        <div class="input">
+          <i class="icon-users"></i>
+          <div class="input-body">
+            <input type="text" list="guests" name="guests" placeholder="Agregar invitados" required>
+            <datalist id="guests">
+              <option value="Sebastian"></option>
+              <option value="Juan"></option>
+              <option value="Yessica"></option>
+              <option value="Maria"></option>
+            </datalist>
+          </div>
 
+        </div>
+        <!-- <div class="input">
+          <i class="icon-video"></i>
+          <div class="input-body">
+            <button class="button is-primary">Agregar una videoconferencia de Google Meet</button>
+          </div>
+        </div> -->
+        <div class="input">
+          <i class="icon-gps"></i>
+          <div class="input-body">
+            <input type="text" placeholder="Agregar ubicación" name="location">
+          </div>
+        </div>
+        <div class="input">
+          <i class="icon-text"></i>
+          <div class="input-body">
+            <input type="file" name="file">
+          </div>
+        </div>
+        <div class="input">
+          <i class="icon-text"></i>
+          <div class="input-body">
+            <textarea name="description" placeholder="Agregar descripción" rows="2"></textarea>
+          </div>
+        </div>
+      </form>
+      <div class="modal-actions">
+        <button id="close-modal" class="button">
+          Cancelar
+        </button>
+        <button class="button is-primary">Guardar</button>
+      </div>
+    </dialog>
+    <!-- <script>
+      document.querySelector('.modal').showModal();
+    </script> -->
+  <script src="./js/app.js" type="module"></script>
 </body>
 </html>
